@@ -1,18 +1,38 @@
+// Get the search element
+let searchElement = document.getElementById("search");
+
+// Get the navbar element
 let navbar = document.getElementById("navbar");
 
-let search = document.getElementById("searchBlock");
+// Get the content element
+let content = document.querySelector(".content");
 
-let searchElement = document.getElementById("Search");
+// Function to replace the "Search" text with an input box
+function addInputBox() {
+    // Create a new input element
+    let inputElement = document.createElement("input");
+    inputElement.type = "text";
+    inputElement.id = "searchInput";
 
-searchElement.addEventListener("mousedown", () => {
-    let x = document.createElement("input");
-    x.setAttribute("type", "text");
-    navbar.appendChild(x);
-    navbar.replaceChild(x, searchBlock);
-    x.focus();
-    x.addEventListener("blur", () => {
+    // Add the input element to the navbar
+    navbar.appendChild(inputElement);
+
+    // Remove the search text element
+    searchElement.remove();
+
+    // Focus on the input box
+    inputElement.focus();
+
+    // Add an event listener to handle input box behavior
+    inputElement.addEventListener("blur", () => {
         // When the input box loses focus, replace it with the "Search" text
-        navbar.appendChild(search);
-        navbar.replaceChild(searchBlock, x);
+        searchElement = document.createElement("span");
+        searchElement.id = "search";
+        searchElement.textContent = "Search";
+        navbar.appendChild(searchElement);
+        inputElement.remove();
     });
-});
+}
+
+// Add a click event listener to the "Search" text
+searchElement.addEventListener("click", addInputBox);
