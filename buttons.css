@@ -1,0 +1,22 @@
+.proj1 {
+    display: inline-flex;
+    background-color: transparent;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-attachment: fixed;
+}
+
+.proj1 button {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.proj1 button img {
+    height: 100px;
+}
+
+.proj1 button h2 {
+    font-size: 1px;
+}
