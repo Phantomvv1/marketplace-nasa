@@ -1,3 +1,3 @@
 adblocker = () => {
-  window.open(new URL(""));
+  window.location.replace("");
 };
