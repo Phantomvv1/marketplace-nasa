@@ -38,7 +38,7 @@ function addInputBox() {
 searchElement.addEventListener("click", addInputBox);
 
 document.getElementById("Home").addEventListener("mousedown", () => {
-    window.location.replace("http://127.0.0.1:5500/main.html")
+    window.location.replace("https://marketplaceforscience-a8a2b.web.app/main.html")
 });
 
 let upload = document.getElementById("Upload");
