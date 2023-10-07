@@ -3,9 +3,8 @@
     background-color: transparent;
     width: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
     background-attachment: fixed;
+    margin-left: 30px;
 }
 
 .proj1 button {
