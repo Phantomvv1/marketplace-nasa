@@ -1,87 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Market</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="buttons.css">
-    <script src="buttons.js"></script>
-    <script src="main.js"></script>
-</head>
-
-<body>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="buttons.css" />
+  </head>
+  <body>
     <div class="background-image"></div>
 
     <nav id="navbar">
-        <ul class="navbar-items flexbox-col">
-            <li class="navbar-logo flexbox-left">
-                <a class="navbar-item-inner flexbox">
-                    <img src="assets/logo.png">
-                </a>
-            </li>
-            <li class="navbar-item flexbox-left">
-                <a class="navbar-item-inner flexbox-left">
-                    <div class="navbar-item-inner-icon-wrapper flexbox">
-                        <ion-icon name="search-outline"></ion-icon>
-                    </div>
-                    <span class="link-text">Search</span>
-                </a>
-            </li>
-            <li class="navbar-item flexbox-left">
-                <a class="navbar-item-inner flexbox-left">
-                    <div class="navbar-item-inner-icon-wrapper flexbox">
-                        <ion-icon name="home-outline"></ion-icon>
-                    </div>
-                    <span class="link-text">Home</span>
-                </a>
-            </li>
-            <li class="navbar-item flexbox-left">
-                <a class="navbar-item-inner flexbox-left">
-                    <div class="navbar-item-inner-icon-wrapper flexbox">
-                        <ion-icon name="pie-chart-outline"></ion-icon>
-                    </div>
-                    <span class="link-text">Upload</span>
-                </a>
-            </li>
-            <li class="navbar-item flexbox-left">
-                <a class="navbar-item-inner flexbox-left">
-                    <div class="navbar-item-inner-icon-wrapper flexbox">
-                        <ion-icon name="people-outline"></ion-icon>
-                    </div>
-                    <span class="link-text">Team</span>
-                </a>
-            </li>
-            <li class="navbar-item flexbox-left">
-                <a class="navbar-item-inner flexbox-left">
-                    <div class="navbar-item-inner-icon-wrapper flexbox">
-                        <ion-icon name="chatbubbles-outline"></ion-icon>
-                    </div>
-                    <span class="link-text">Filters</span>
-                </a>
-            </li>
-            <li class="navbar-item flexbox-left">
-                <a class="navbar-item-inner flexbox-left">
-                    <div class="navbar-item-inner-icon-wrapper flexbox">
-                        <ion-icon name="settings-outline"></ion-icon>
-                    </div>
-                    <span class="link-text">Support</span>
-                </a>
-            </li>
-        </ul>
+      <ul class="navbar-items flexbox-col">
+        <li class="navbar-logo flexbox-left">
+          <a class="navbar-item-inner flexbox">
+            <img src="assets/logo.png" />
+          </a>
+        </li>
+        <li class="navbar-item flexbox-left">
+          <a class="navbar-item-inner flexbox-left">
+            <input type="text" id="Search" />Search<input />
+            <div class="navbar-item-inner-icon-wrapper flexbox">
+              <ion-icon name="search-outline"></ion-icon>
+            </div>
+            <span class="link-text">Search</span>
+          </a>
+        </li>
+        <li class="navbar-item flexbox-left">
+          <a class="navbar-item-inner flexbox-left">
+            <div class="navbar-item-inner-icon-wrapper flexbox">
+              <ion-icon name="home-outline"></ion-icon>
+            </div>
+            <span class="link-text">Home</span>
+          </a>
+        </li>
+        <li class="navbar-item flexbox-left">
+          <a class="navbar-item-inner flexbox-left">
+            <div class="navbar-item-inner-icon-wrapper flexbox">
+              <ion-icon name="pie-chart-outline"></ion-icon>
+            </div>
+            <span class="link-text">Upload</span>
+          </a>
+        </li>
+        <li class="navbar-item flexbox-left">
+          <a class="navbar-item-inner flexbox-left">
+            <div class="navbar-item-inner-icon-wrapper flexbox">
+              <ion-icon name="people-outline"></ion-icon>
+            </div>
+            <span class="link-text">Team</span>
+          </a>
+        </li>
+        <li class="navbar-item flexbox-left">
+          <a class="navbar-item-inner flexbox-left">
+            <div class="navbar-item-inner-icon-wrapper flexbox">
+              <ion-icon name="chatbubbles-outline"></ion-icon>
+            </div>
+            <span class="link-text">Filters</span>
+          </a>
+        </li>
+        <li class="navbar-item flexbox-left">
+          <a class="navbar-item-inner flexbox-left">
+            <div class="navbar-item-inner-icon-wrapper flexbox">
+              <ion-icon name="settings-outline"></ion-icon>
+            </div>
+            <span class="link-text">Support</span>
+          </a>
+        </li>
+      </ul>
     </nav>
     <div class="content">
-        <div class="proj1">
-            <button onclick="adblocker()">
-                <img src="assets/adblocker.png">
-                <span><br>Ad Blocker<br></span>
-                <span id="CharlieS1103"><strong>Team:</strong> CharlieS1103<br></span>
-                <span id="des-char-ad">Block all audio and UI ads!<br></span>
-                <span id="ls-date">Last updated October 2nd 2023</span>
-            </button>
-        </div>
+      <div class="proj1">
+        <button onclick="adblocker()">
+          <img src="assets/adblocker.png" />
+          <span><br />Ad Blocker<br /></span>
+          <span id="CharlieS1103"
+            ><strong>Team:</strong> CharlieS1103<br
+          /></span>
+          <span id="des-char-ad">Block all audio and UI ads!<br /></span>
+          <span id="ls-date">Last updated October 2nd 2023</span>
+        </button>
+      </div>
     </div>
-</body>
-
+    <script src="main.js"></script>
+  </body>
 </html>

@@ -425,3 +425,7 @@ nav ul li a img {
     background-repeat: no-repeat;
     z-index: 0;
 }
+
+#Search{
+    z-index: -2;
+}
