@@ -65,7 +65,6 @@ filters.addEventListener("mousedown", () => {
             {
                 let min = projects[0].price;
             }
-            let
         }
     });
     y.addEventListener("mousedown", () => {
