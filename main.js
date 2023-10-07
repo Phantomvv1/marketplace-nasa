@@ -36,3 +36,43 @@ function addInputBox() {
 
 // Add a click event listener to the "Search" text
 searchElement.addEventListener("click", addInputBox);
+
+document.getElementById("Home").addEventListener("mousedown", () => {
+    window.location.replace("http://127.0.0.1:5500/main.html")
+});
+
+let upload = document.getElementById("Upload");
+
+upload.addEventListener("mousedown", () => {
+    window.location.replace();
+})
+
+let filters = document.getElementById("Filters");
+
+filters.addEventListener("mousedown", () => {
+    let x = document.createElement("priceUp");
+    let y = document.createElement("priceDown");
+    x.setAttribute("type", "button");
+    y.setAttribute("type", "button");
+    navbar.appendChild(x);
+    navbar.appendChild(y);
+    x.focus();
+    y.focus();
+    x.addEventListener("mousedown", () => {
+        for(let i = 0; i < projects.size; i = i + 1)
+        {
+            for(let j = 0; j < projects.size; j = j + 1)
+            {
+                let min = projects[0].price;
+            }
+            let
+        }
+    });
+    y.addEventListener("mousedown", () => {
+        
+    });
+    filters.addEventListener("mousedown", () => {
+        x.remove();
+        y.remove();
+    });
+});
