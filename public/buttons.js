@@ -1,3 +1,11 @@
 adblocker = () => {
-  window.location.replace("");
+  window.open(new URL(""));
 };
+
+fullscreen = () => {
+  window.open(new URL(""));
+}
+
+songstats = () => {
+  window.open(new URL(""));
+}

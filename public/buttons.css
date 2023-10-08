@@ -1,13 +1,20 @@
-.proj1 {
+.proj1,
+.proj2,
+.proj3,
+.add {
     display: inline-flex;
     background-color: transparent;
     width: 100%;
     position: absolute;
     background-attachment: fixed;
     margin-left: 30px;
+    margin-top: 70px;
 }
 
-.proj1 button {
+.proj1 button,
+.proj2 button,
+.proj3 button,
+.add button {
     background-color: transparent;
     color: #ffffff;
     border-radius: 15px;
@@ -15,10 +22,35 @@
     box-shadow: 0 5px 15px 3px #099FFF;
 }
 
-.proj1 button img {
+.proj1 button img,
+.proj2 button img,
+.add button img {
     height: 100px;
 }
 
-.proj1 button h2 {
-    font-size: 1px;
+.proj3 button img {
+    height: 100px;
+}
+
+.proj2,
+.proj3 {
+    margin-left: 330px;
+
+}
+
+.proj3 {
+    margin-left: 670px;
+}
+
+.add button {
+    margin-left: 1000px;
+    background-color: rgba(22, 46, 182, 0.473);
+    margin-top: 55px;
+}
+
+.proj1:hover,
+.proj2:hover,
+.proj3:hover,
+.add:hover {
+    filter: contrast(45px);
 }
