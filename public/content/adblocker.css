@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300');
+
+* {
+    transition: all 0.35s linear;
+    font-family: gg sans;
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/mainback2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.header__text p {
+    color: white;
+}
+
+.wrapper {
+    text-align: center;
+    background-color: #12192c;
+    position: relative;
+    width: 15%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+}
+
+.image img {
+    width: 100%;
+}
+
+.but {
+    background: #85FFBD;
+    font-size: 1rem;
+    margin-top: 2rem;
+    padding: 0.85rem;
+    border: 0;
+    border-radius: 200px;
+    cursor: pointer;
+}
+
+.but:hover {
+    background: #03612f;
+}
+
+.but:active {
+    opacity: 0.7;
+}
+
+.description {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.audio1 {
+    margin-top: 20px;
+}
+
+.pause,
+.play {
+    background: #85FFBD;
+    font-size: 1rem;
+    padding: 0.85rem;
+    border: 0;
+    border-radius: 200px;
+    cursor: pointer;
+}
+
+.pause {
+    margin-left: 10px;
+}
+
+.pause:hover,
+.play:hover {
+    background: #03612f;
+}
+
+.back {
+    margin-top: 10px;
+    display: inline-block;
+    background: none;
+    border: none;
+}
+
+.backbut {
+    width: 50px;
+    cursor: pointer;
+}
+
+/* Existing CSS styles for .proj1, .proj2, .proj3, and .add */

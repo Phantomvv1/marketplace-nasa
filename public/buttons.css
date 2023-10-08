@@ -1,8 +1,9 @@
+/* Existing CSS styles for .proj1, .proj2, .proj3, and .add */
 .proj1,
 .proj2,
 .proj3,
 .add {
-    display: inline-flex;
+    display: inline-flexbox;
     background-color: transparent;
     width: 100%;
     position: absolute;
@@ -11,6 +12,7 @@
     margin-top: 70px;
 }
 
+/* Existing CSS styles for buttons */
 .proj1 button,
 .proj2 button,
 .proj3 button,
@@ -22,6 +24,7 @@
     box-shadow: 0 5px 15px 3px #099FFF;
 }
 
+/* Existing CSS styles for button images */
 .proj1 button img,
 .proj2 button img,
 .add button img {
@@ -32,25 +35,44 @@
     height: 100px;
 }
 
+/* Existing CSS styles for .proj2 and .proj3 */
 .proj2,
 .proj3 {
     margin-left: 330px;
-
 }
 
 .proj3 {
     margin-left: 670px;
 }
 
+/* Existing CSS styles for .add button */
 .add button {
     margin-left: 1000px;
     background-color: rgba(22, 46, 182, 0.473);
     margin-top: 55px;
 }
 
+/* Existing CSS styles for hover effect */
 .proj1:hover,
 .proj2:hover,
 .proj3:hover,
 .add:hover {
-    filter: contrast(45px);
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/* New styles for smaller screens */
+@media (max-width: 768px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center the items vertically */
+    }
+
+    .proj1, .proj2, .proj3, .add {
+        width: 100%; /* Set the width to 100% so they stack vertically */
+        margin: 0; /* Reset margin */
+    }
+
+    /* Add any additional styles for smaller screens here */
 }

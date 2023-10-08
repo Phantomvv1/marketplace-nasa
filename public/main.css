@@ -65,7 +65,6 @@ body {
     width: 100%;
     color: hsl(var(--text-primary));
     font-family: var(--font-main);
-    background-color: hsl(var(--background));
     -webkit-font-smoothing: antialiased;
     scroll-behavior: smooth;
     box-sizing: border-box;
