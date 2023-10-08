@@ -39,7 +39,7 @@ searchElement.addEventListener("click", addInputBox);
 
 document.getElementById("Home").addEventListener("mousedown", () => {
   window.location.replace(
-    "https://marketplaceforscience-a8a2b.web.app/main.html"
+    "http://127.0.0.1:5500/public/main.html"
   );
 });
 
